@@ -1,0 +1,238 @@
+@font-face {
+	font-family: 'Bellota-LightItalic';
+	src: url('../fonts/Bellota-LightItalic.otf');
+}
+@font-face {
+	font-family: 'Bellota-BoldItalic';
+	src: url('../fonts/Bellota-BoldItalic.otf');
+}
+
+body {
+	line-height: 17px;
+	background-color: #fff;
+}
+
+.top_bar {
+	width: 100%;
+	height: 45px;
+	background-color: #f15922;
+	border-bottom: 5px solid #e63e00;
+	margin: 0 0 10px 0;
+	/*display: inline-flex;*/
+	position: fixed;
+	z-index: 10;
+	margin-top: -20px;
+}
+
+.logo a{
+	font-family: arial, sans-serif;
+	margin-left: 10px;
+	font-size: 20px;
+	top: 20px;
+	text-shadow: #73B6E2 0.5px 0.5px 0px;
+	color: #fff;
+}
+
+
+a:hover {
+	text-decoration: none;
+}
+
+nav {
+	right: 1px;
+	margin: 10px;
+	top: 10px;
+}
+
+nav a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+nav a:hover {
+	border-bottom: 2px solid #fff;
+	color: #fff;
+	text-decoration: none;
+}
+
+.smallmenu{
+	text-align: right;
+	float: right;
+}
+
+@media
+  only screen and (min-width: 630px) and (max-width: 991px){
+		.smallmenu{
+			margin-top: -18px;
+		}
+}
+
+@media
+  only screen and (min-width: 150px) and (max-width: 630px){
+		.top_bar {
+			height: 80px;
+		}
+}
+
+/* ukazka
+@media screen and (max-width: 600px) {
+	.graf1,.graf2{
+		height: 350px;
+	}
+}
+*/
+
+.wrapper {
+	margin: 0 auto;
+	top: 50px;
+	position: relative;
+	padding: 0 10px;
+	width: 75%;
+	min-width: 400px;
+}
+
+.fronttitle{
+	margin-top: 10px;
+	padding-top: 10px;
+}
+
+.column {
+	background-color: #fff;
+	padding: 10px;
+	border: 1px solid #D3D3D3;
+	border-radius: 5px;
+	box-shadow: 2px 2px 1px #D3D3D3;
+	z-index: -1;
+}
+
+
+
+/**/
+.btn-lg{
+	width: 350px;
+	height: 56px;
+	text-align: center;
+	vertical-align: baseline;
+}
+
+.btn-sm{
+	font-size: 75%;
+}
+
+.ukaz0{
+	background-color: #ff5719;
+}
+
+
+.ukaz4{
+	background-color: #ffc7b2;
+}
+
+.ukaz5{
+	background-color: #ffa27f;
+}
+
+.ukaz1{
+	background-color: #ff7c4c;
+}
+
+.ukaz2{
+	background-color: #ff5719;
+}
+
+.ukaz3{
+	background-color: #cc3700;
+}
+
+/* Zobrazeni datasetu */
+.dataset{
+	height: 600px;
+}
+
+@media screen and (min-width: 600px) {
+	.dataset{
+		height: 400px;
+	}
+
+}
+
+@media screen and (min-width: 400px) {
+	.dataset{
+		height: 350px;
+	}
+
+}
+
+@media screen and (max-width: 1200px) {
+	.graf1,.graf2{
+		height: 500px;
+	}
+}
+
+@media screen and (max-width: 900px) {
+	.graf1,.graf2{
+		height: 400px;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.graf1,.graf2{
+		height: 300px;
+	}
+}
+
+@media screen and (min-width: 600px) {
+	.graf1,.graf2{
+		margin-bottom: 50px;
+	}
+}
+
+/*Tabulka*/
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.zluta{
+	color: yellow;
+}
+
+.cervena{
+	color: red;
+}
+
+.zelena{
+	color: green;
+}
+
+.tabfoot{
+	background-color: #000;
+	color: #fff;
+}
+
+.headsubtab{
+	background-color: #ff5719;
+}
+
+.bodysubtab{
+	background-color: #ffe4db;
+}
+
+/*older commands from source bellow - might be deleted???*/
+
+.footer{
+	padding: 20px 0 10px 0;
+}
